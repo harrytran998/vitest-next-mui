@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "exclude": ["src/**/dist", "src/**/public", "src/**/node_modules"],
+  "include": ["src", "vitest.config.ts"]
+}
